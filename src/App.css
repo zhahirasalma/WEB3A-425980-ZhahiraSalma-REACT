@@ -1,3 +1,5 @@
+@import '~antd/dist/antd.css';
+
 .App {
   text-align: center;
 }
@@ -36,3 +38,37 @@
     transform: rotate(360deg);
   }
 }
+
+.card{
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 30px;
+  width: 150px;
+  box-shadow: 0px 4px 4px #ccc;
+}
+
+.site-card-wrapper {
+  background: #ececec;
+  padding: 10px;
+}
+
+.header-wrapper {
+  background: #ececec;
+  padding: 10px;
+}
+
+.site-page-header {
+  border: 1px solid rgb(235, 237, 240);
+}
+
+.ant-card-head {
+    min-height: 20px;
+    margin-bottom: -1px;
+    padding: 0 24px;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 500;
+    font-size: 16px;
+    background: antiquewhite;
+    border-bottom: 1px solid #f0f0f0;
+    border-radius: 2px 2px 0 0;
+  }
