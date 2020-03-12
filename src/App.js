@@ -76,9 +76,11 @@ function App(){
       subTitle="PT Sumber Sari"
     />
     <Dropdown overlay={MyMenu}>
-        <a className="ant-dropdown-link" onClick={e => e.preventDefault()}>
+    <React.Fragment>
+        <a className="ant-dropdown-link" onClick={e => e.preventDefault()} >
           Bagian IT <DownOutlined />
         </a>
+      </React.Fragment>
     </Dropdown>
     </div>
     ,
