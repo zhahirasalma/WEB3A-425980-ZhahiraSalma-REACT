@@ -1,8 +1,9 @@
 import React from 'react';
-// import logo from './logo.svg';
 import './App.css';
 import { Card, Col, Row } from 'antd';
 import { PageHeader } from 'antd';
+import { Statistic } from 'antd';
+import { LikeOutlined } from '@ant-design/icons';
 import { Menu, Dropdown } from 'antd';
 import { DownOutlined } from '@ant-design/icons';
 
@@ -51,6 +52,18 @@ function App(){
     {
       title:"Mari",
       job:"IT Analyst",
+    },
+    {
+      title:"Prawito",
+      job:"FrontEnd Dev",
+    },
+    {
+      title:"Handoko",
+      job:"Project Manager",
+    },
+    {
+      title:"Budi",
+      job:"UI Designer",
     }
   ]
 
@@ -59,8 +72,8 @@ function App(){
       <PageHeader
       className="site-page-header"
       onBack={() => null}
-      title="Nama Pegawai"
-      subTitle="Pegawai PT Sumber Sari"
+      title="Data Pegawai"
+      subTitle="PT Sumber Sari"
     />
     <Dropdown overlay={MyMenu}>
         <a className="ant-dropdown-link" onClick={e => e.preventDefault()}>
@@ -76,7 +89,9 @@ function App(){
         <Col span={8}>
         <Card title="Nama Pegawai" bordered={false}>
           <p className="title">{data.title}</p>
-          <p>{data.job}</p>
+          <p className="subtitle">{data.job}</p>
+          <p className="statistik"><Statistic title="Jumlah Project" value={50} prefix={<LikeOutlined />} /></p>
+          <p className="statistik"><Statistic title="Statistik Keberhasilan" value={29} suffix="/ 50" /></p>
         </Card>
         </Col>
         )}
