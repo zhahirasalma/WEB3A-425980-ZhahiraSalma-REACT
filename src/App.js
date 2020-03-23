@@ -11,18 +11,20 @@ import { Button } from 'antd';
 class App extends Component{
   state={
     total: 50,
-    totalmin: 40
+    totalmin: 40,
+    totalsuccess: 0
   }
 
   handleClickPositive = () => {
     this.setState({
-      total: this.state.total + 1
+      total: this.state.total + 1,
+      totalsuccess: this.state.totalsuccess + 1
     })
   }
 
   handleClickNegative = () => {
     this.setState({
-      total: this.state.total - 1
+      totalmin: this.state.totalmin + 1
     })
   }
 
@@ -115,7 +117,7 @@ class App extends Component{
             <Button className="button" shape="round" icon={<DislikeOutlined />} onClick={this.handleClickNegative}></Button></p>
             <p className="statistik"><Statistic title="Disukai" value={this.state.total} /></p>
             <p className="statistik"><Statistic title="Tidak Disukai" value={this.state.totalmin} /></p>
-            <p className="statistika"><Statistic title="Statistik Berhasil" value={29} suffix="/ 50" /></p>
+            <p className="statistika"><Statistic title="Statistik Keberhasilan" value={this.state.totalsuccess} suffix="/ 100" /></p>
           </Card>
           </Col>
           )}
