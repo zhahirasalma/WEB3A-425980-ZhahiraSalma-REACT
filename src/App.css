@@ -85,11 +85,24 @@
 
   .statistik{
     display: inline-block;
-    margin-right: 100px;
+    margin-right: 80px;
+    align-items: center;
+  }
+
+  .statistika{
+    display: inline-block;
     align-items: center;
   }
 
   .ant-card-body {
     padding: 24px;
     margin-bottom: 20px;
+}
+
+.button{
+  margin-right: 80px;
+  display: inline-block;  
+  align-items: center;
+  background-color: antiquewhite;
+  
 }
