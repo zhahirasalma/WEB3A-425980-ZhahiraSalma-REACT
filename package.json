@@ -2,7 +2,7 @@
   "name": "web3ap",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://github.com/zhahirasalma/WEB3A-425980-ZhahiraSalma-REACT/tree/routing-web3",
+  "homepage": "https://zhahirasalma.github.io/WEB3A-425980-ZhahiraSalma-REACT",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
