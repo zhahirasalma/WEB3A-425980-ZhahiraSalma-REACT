@@ -4,7 +4,7 @@ import Navbar from './Navbar';
 import profil from './images/profil.jpg';
 import profil2 from './images/profil2.jpg';
 import profil3 from './images/profil3.jpg';
-import { Carousel } from 'antd';
+import { Carousel, Row, Col } from 'antd';
 
 class Home extends Component{
 
@@ -13,17 +13,21 @@ class Home extends Component{
             [
             <Navbar/>,
             <div className="title-profil" >PT INOVASI
-            <Carousel className="carousel" effect="fade">
-                <div>
-                    <img src={profil2}></img>
-                </div>
-                <div>
-                    <img src={profil}></img>
-                 </div>
-                <div>
-                    <img src={profil3}></img>
-                </div>
-            </Carousel>
+            <Row>
+                <Col span={12} offset={5}>
+                    <Carousel className="carousel" effect="fade">
+                        <div>
+                            <img src={profil2}></img>
+                        </div>
+                        <div>
+                            <img src={profil}></img>
+                        </div>
+                        <div>
+                            <img src={profil3}></img>
+                        </div>
+                    </Carousel>
+                </Col>
+            </Row>
             </div>,
             <div >
                 <p className="desc">PT Inovasi adalah perusahaan yang bergerak di bidang arsitektur dan mengedepankan

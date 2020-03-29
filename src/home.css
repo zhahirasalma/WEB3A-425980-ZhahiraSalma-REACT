@@ -32,6 +32,7 @@ body {
 }
 
   .carousel{
+        margin-top: 10px;
         object-fit: 'cover';
         background: #dee3e2;
         overflow: hidden;

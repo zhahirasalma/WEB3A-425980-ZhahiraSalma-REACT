@@ -11,3 +11,14 @@ body {
     font-feature-settings: 'tnum', "tnum";
     background-color: #ececec;
 }
+
+.contact{
+    padding: 20px;
+    outline-color: #dee3e2;
+}
+
+.ant-descriptions-bordered .ant-descriptions-item-content {
+    padding: 16px 24px;
+    border-right: 1px solid #f0f0f0;
+    background-color: #dee3e2;
+}
