@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/WEB3A-425980-ZhahiraSalma-REACT/static/css/main.a3842324.chunk.css",
+    "main.js": "/WEB3A-425980-ZhahiraSalma-REACT/static/js/main.1321f66d.chunk.js",
+    "main.js.map": "/WEB3A-425980-ZhahiraSalma-REACT/static/js/main.1321f66d.chunk.js.map",
+    "runtime-main.js": "/WEB3A-425980-ZhahiraSalma-REACT/static/js/runtime-main.992140b2.js",
+    "runtime-main.js.map": "/WEB3A-425980-ZhahiraSalma-REACT/static/js/runtime-main.992140b2.js.map",
+    "static/css/2.1bd2ab2f.chunk.css": "/WEB3A-425980-ZhahiraSalma-REACT/static/css/2.1bd2ab2f.chunk.css",
+    "static/js/2.ee3ff289.chunk.js": "/WEB3A-425980-ZhahiraSalma-REACT/static/js/2.ee3ff289.chunk.js",
+    "static/js/2.ee3ff289.chunk.js.map": "/WEB3A-425980-ZhahiraSalma-REACT/static/js/2.ee3ff289.chunk.js.map",
+    "index.html": "/WEB3A-425980-ZhahiraSalma-REACT/index.html",
+    "precache-manifest.78834bff3836ea8bb074e77cbfd38a0d.js": "/WEB3A-425980-ZhahiraSalma-REACT/precache-manifest.78834bff3836ea8bb074e77cbfd38a0d.js",
+    "service-worker.js": "/WEB3A-425980-ZhahiraSalma-REACT/service-worker.js",
+    "static/css/2.1bd2ab2f.chunk.css.map": "/WEB3A-425980-ZhahiraSalma-REACT/static/css/2.1bd2ab2f.chunk.css.map",
+    "static/css/main.a3842324.chunk.css.map": "/WEB3A-425980-ZhahiraSalma-REACT/static/css/main.a3842324.chunk.css.map",
+    "static/js/2.ee3ff289.chunk.js.LICENSE.txt": "/WEB3A-425980-ZhahiraSalma-REACT/static/js/2.ee3ff289.chunk.js.LICENSE.txt",
+    "static/media/profil.jpg": "/WEB3A-425980-ZhahiraSalma-REACT/static/media/profil.1fef7c02.jpg",
+    "static/media/profil2.jpg": "/WEB3A-425980-ZhahiraSalma-REACT/static/media/profil2.747f61d3.jpg",
+    "static/media/profil3.jpg": "/WEB3A-425980-ZhahiraSalma-REACT/static/media/profil3.7bda3917.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.992140b2.js",
+    "static/css/2.1bd2ab2f.chunk.css",
+    "static/js/2.ee3ff289.chunk.js",
+    "static/css/main.a3842324.chunk.css",
+    "static/js/main.1321f66d.chunk.js"
+  ]
+}
